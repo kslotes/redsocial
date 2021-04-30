@@ -1,28 +1,31 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
-import {Button} from '../BasicComponents/Button';
-import {FormGroup} from '../BasicComponents/FormGroup'
-import {H2} from '../BasicComponents/H2'
-import {Label} from '../BasicComponents/Label'
 
 const Login = () => {
     return (
-        <div className="container-fluid d-flex flex-column">
-            <H2 className="text-center col-md-9 col-sm-6">Iniciar Sesión</H2>
+        <div>
+            <h2 className="text-center">Iniciar Sesión</h2>
             <form>
-                <FormGroup className="form-group">
-                    <Label htmlFor="inputNumeroLegajo">Número de legajo</Label>
-                    <input type="text" className="form-control col-md-9" id="inputNumeroLegajo" placeholder="Ingrese número de legajo"/>
-                </FormGroup>
-                <FormGroup className="form-group">
-                    <Label htmlFor="inputContraseña">Contraseña</Label>
-                    <input type="text" className="form-control col-md-9" id="inputContraseña" placeholder="Ingrese contraseña"/>
-                    <small><i>Nunca compartiremos estos datos con nadie.</i></small>
-                </FormGroup>
+                <form className="form-group">
+                    <label htmlFor="inputNumeroLegajo">Número de legajo</label>
+                    <input type="text" className="form-control" id="inputNumeroLegajo" placeholder="Ingrese número de legajo" />
+                </form>
+                <form className="form-group">
+                    <label htmlFor="inputContraseña">Contraseña</label>
+                    <input type="text" className="form-control" id="inputContraseña" placeholder="Ingrese contraseña" />
+                    <small>
+                        <i>Nunca compartiremos estos datos con nadie.</i>
+                    </small>
+                </form>
             </form>
-                <Button secondary className="align-self-start" type="submit">INGRESAR</Button>
-                <Button forgotPassword className="align-self-end mt-5">Olvidé mi contraseña</Button>
+            <div>
+                <button>
+                    INGRESAR
+                </button>
+                <button>
+                    Olvidé mi contraseña
+                </button>
+            </div>
         </div>
     );
 };

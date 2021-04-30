@@ -1,22 +1,26 @@
 import React from "react";
 import SeccionIzquierda from "../../Components/SeccionIzquierda/SeccionIzquierda";
 import SeccionDerecha from "../../Components/SeccionDerecha/SeccionDerecha";
-import {LineaDivisoria} from "../../Components/BasicComponents/LineaDivisoria";
-import Icons from "../../Components/Icons/Icons"
+import RedesSociales from "../../Components/RedesSociales/RedesSociales";
+import {Col, Container, Row} from "react-bootstrap";
+import "./MainPage.css";
 
 const MainPage = () => {
     return (
-        <div className="d-flex flex-column">
-            <div className="container-fluid d-flex flex-row">
-                <SeccionIzquierda />
-                <LineaDivisoria />
-                <SeccionDerecha />
-            </div>
-            <div className="container-fluid d-flex flex-column align-items-center">
-                  <Icons/>
-                  <footer><i>Municipalidad de Areco 2021. Todos los derechos reservados.&#174; </i></footer>
-            </div>
-        </div>
+        <Container fluid className="fondo">
+            <Row xs={1} sm={2} md={2} lg={2}>
+                <Col>
+                    <SeccionIzquierda />
+                </Col>
+                <Col>
+                    <SeccionDerecha />
+                </Col>
+                <Col>
+                    <RedesSociales />
+                    <i>Municipalidad de Areco 2021. Todos los derechos reservados.&#174; </i>
+                </Col>
+            </Row>
+        </Container>
     );
 };
 
