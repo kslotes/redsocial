@@ -1,6 +1,6 @@
 import './App.css';
-import Fondo from './Fondo/Fondo'
-import MainPage from './mainPage/MainPage'
+import Fondo from './Components/Fondo/Fondo'
+import MainPage from './Pages/MainPage/MainPage'
 function App() {
       return (
             <Fondo>
