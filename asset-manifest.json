@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/redsocial/static/css/main.e016b833.chunk.css",
+    "main.js": "/redsocial/static/js/main.5f817154.chunk.js",
+    "main.js.map": "/redsocial/static/js/main.5f817154.chunk.js.map",
+    "runtime-main.js": "/redsocial/static/js/runtime-main.87943793.js",
+    "runtime-main.js.map": "/redsocial/static/js/runtime-main.87943793.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/redsocial/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.88d340ca.chunk.js": "/redsocial/static/js/2.88d340ca.chunk.js",
+    "static/js/2.88d340ca.chunk.js.map": "/redsocial/static/js/2.88d340ca.chunk.js.map",
+    "static/js/3.8a5e5908.chunk.js": "/redsocial/static/js/3.8a5e5908.chunk.js",
+    "static/js/3.8a5e5908.chunk.js.map": "/redsocial/static/js/3.8a5e5908.chunk.js.map",
+    "index.html": "/redsocial/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/redsocial/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.e016b833.chunk.css.map": "/redsocial/static/css/main.e016b833.chunk.css.map",
+    "static/js/2.88d340ca.chunk.js.LICENSE.txt": "/redsocial/static/js/2.88d340ca.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/redsocial/static/media/OpenSans-Regular.1b0809d5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87943793.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.88d340ca.chunk.js",
+    "static/css/main.e016b833.chunk.css",
+    "static/js/main.5f817154.chunk.js"
+  ]
+}
