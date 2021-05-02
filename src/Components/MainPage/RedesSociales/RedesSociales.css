@@ -1,0 +1,14 @@
+@media screen and (max-width: 360px) {
+      i {
+            font-size: 25px;
+      }
+      #icon-twitter {
+            color: #00c8f8;
+      }
+      #icon-instagram {
+            color: #e93578;
+      }
+      #icon-facebook {
+            color: #1464f6;
+      }
+}

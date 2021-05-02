@@ -1,0 +1,15 @@
+.fondo {
+      background-color: #dedee1;
+      height: 100vh;
+      width: 100%;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+      border-radius: 12px;
+      border: 2px solid #bec7cf;
+      padding: 1rem;
+}
+
+@media screen and (max-width: 360px) {
+      h6 {
+            font-weight: bold;
+      }
+}
