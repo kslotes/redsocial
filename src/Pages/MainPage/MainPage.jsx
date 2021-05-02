@@ -1,19 +1,21 @@
 import React from "react";
-import SeccionIzquierda from "../../Components/SeccionIzquierda/SeccionIzquierda";
-import SeccionDerecha from "../../Components/SeccionDerecha/SeccionDerecha";
+import Login from "../../Components/Login/Login"
 import RedesSociales from "../../Components/RedesSociales/RedesSociales";
 import {Col, Container, Row} from "react-bootstrap";
 import "./MainPage.css";
+import Register from "../../Components/Register/Register";
+import ContactUs from "../../Components/ContactUs/ContactUs";
 
 const MainPage = () => {
     return (
         <Container fluid className="fondo">
             <Row xs={1} sm={2} md={2} lg={2}>
                 <Col>
-                    <SeccionIzquierda />
+                    <Login />
                 </Col>
                 <Col>
-                    <SeccionDerecha />
+                    <Register/>
+                    <ContactUs/>
                 </Col>
                 <Col>
                     <RedesSociales />
