@@ -7,9 +7,16 @@
       border: 2px solid #bec7cf;
       padding: 1rem;
 }
-
+#icon-check {
+      font-size: 180px;
+      color: #72bb53;
+}
 @media screen and (max-width: 360px) {
       h6 {
             font-size: 15px;
       }
+      .label-sesion {
+            font-weight: bold;
+      }
+
 }
