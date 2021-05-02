@@ -9,16 +9,16 @@ import ContactUs from "../../Components/MainPage/ContactUs/ContactUs";
 const MainPage = () => {
     return (
         <Container fluid className="fondo">
-            <Row xs={1} sm={2} md={2} lg={2}>
+            <Row xs={1} sm={1} md={1} lg={1}>
                 <Col>
                     <Login />
                 </Col>
             </Row>
             <Row xs={2} className="mt-5">
-                <Col xs={6}>
+                <Col>
                     <Register />
                 </Col>
-                <Col xs={6}>
+                <Col>
                     <ContactUs />
                 </Col>
             </Row>
