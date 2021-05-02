@@ -7,7 +7,7 @@ const SuccessPage = () => {
             <Row xs={1} className="mt-3 text-center">
                 <Col>
                     <h5>
-                        <b>Recursos humanos Comunicaciones</b>
+                        <b>Recursos Humanos Comunicaciones</b>
                     </h5>
                 </Col>
                 <Col className="mt-3">

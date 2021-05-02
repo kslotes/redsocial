@@ -1,14 +1,15 @@
 @media screen and (max-width: 360px) {
-      i {
+      .icon {
             font-size: 25px;
+            text-decoration: none;
       }
-      #icon-twitter {
+      .icon-twitter {
             color: #00c8f8;
       }
-      #icon-instagram {
+      .icon-instagram {
             color: #e93578;
       }
-      #icon-facebook {
+      .icon-facebook {
             color: #1464f6;
       }
 }

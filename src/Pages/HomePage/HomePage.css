@@ -5,3 +5,9 @@
       padding: 1rem;
 }
 
+@media screen and (max-width: 360px) {
+      #text-novedades {
+            font-weight: bold;
+      }
+
+}

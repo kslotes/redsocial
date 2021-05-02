@@ -1,11 +1,9 @@
 @media screen and (max-width: 360px) {
-    .btn-ingresar {
-        width: 100%;
-    }
-    .btn-forgot{
+    #btn-forgot{
           float:right;
+          width: auto;
     }
-    h2 {
+    #text-sesion {
         font-weight: bold;
     }
     label {

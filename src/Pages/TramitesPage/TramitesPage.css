@@ -1,0 +1,16 @@
+.fondo {
+      background-color: #dedee1;
+      height: 100vh;
+      width: 100%;
+      padding: 1rem;
+}
+
+@media screen and (max-width: 360px) {
+      #text-tramites {
+            font-weight: bold;
+      }
+      .btn {
+            width: 100%;
+      }
+
+}
