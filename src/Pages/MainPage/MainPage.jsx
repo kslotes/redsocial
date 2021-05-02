@@ -1,10 +1,10 @@
 import React from "react";
-import Login from "../../Components/Login/Login"
-import RedesSociales from "../../Components/RedesSociales/RedesSociales";
+import Login from "../../Components/MainPage/Login/Login";
+import RedesSociales from "../../Components/MainPage/RedesSociales/RedesSociales";
 import {Col, Container, Row} from "react-bootstrap";
 import "./MainPage.css";
-import Register from "../../Components/Register/Register";
-import ContactUs from "../../Components/ContactUs/ContactUs";
+import Register from "../../Components/MainPage/Register/Register";
+import ContactUs from "../../Components/MainPage/ContactUs/ContactUs";
 
 const MainPage = () => {
     return (
@@ -13,13 +13,23 @@ const MainPage = () => {
                 <Col>
                     <Login />
                 </Col>
-                <Col>
-                    <Register/>
-                    <ContactUs/>
+            </Row>
+            <Row xs={2} className="mt-5">
+                <Col xs={6}>
+                    <Register />
                 </Col>
+                <Col xs={6}>
+                    <ContactUs />
+                </Col>
+            </Row>
+            <Row className="mt-5">
                 <Col>
                     <RedesSociales />
-                    <i>Municipalidad de Areco 2021. Todos los derechos reservados.&#174; </i>
+                </Col>
+            </Row>
+            <Row className="mt-4 text-center">
+                <Col>
+                    <small>Municipalidad de San Antonio de Areco 2021. Derechos Reservados.&#174; </small>
                 </Col>
             </Row>
         </Container>
