@@ -1,7 +1,13 @@
+import {useHistory} from "react-router-dom";
 import {Col, Row, Container, Button} from "react-bootstrap";
 import {FaCheckCircle} from "react-icons/fa";
 import "./SuccessPage.css";
 const SuccessPage = () => {
+      const history = useHistory();
+      const routeChange = () => {
+            let path = `/home`;
+            history.push(path); 
+      }
     return (
         <Container fluid className="fondo">
             <Row xs={1} className="mt-3 text-center">
@@ -25,7 +31,7 @@ const SuccessPage = () => {
                       </h6>
                 </Col>
                 <Col className="mt-3">
-                      <Button variant="dark" size="lg">Continuar</Button>
+                      <Button variant="dark" size="lg" onClick={routeChange}>Continuar</Button>
                 </Col>
             </Row>
         </Container>

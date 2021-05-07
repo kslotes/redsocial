@@ -1,12 +1,20 @@
-import {Navbar, Nav} from "react-bootstrap"
+import {Navbar, Nav} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
+
 const NavBar = () => {
     return (
         <Navbar className="navbar" bg="dark" variant="dark" fixed="bottom">
-            <Navbar.Brand href="#home"></Navbar.Brand>
+            <Navbar.Brand to="#home"></Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="/home">Novedades</Nav.Link>
-                <Nav.Link href="/tramites">Trámites</Nav.Link>
-                <Nav.Link href="#configuracion">Configuración</Nav.Link>
+                <Nav.Link>
+                    <NavLink to="/home">Novedades</NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                    <NavLink to="/tramites">Trámites</NavLink>
+                </Nav.Link>
+                <Nav.Link>
+                    <NavLink to="#configuracion">Configuración</NavLink>
+                </Nav.Link>
             </Nav>
         </Navbar>
     );
