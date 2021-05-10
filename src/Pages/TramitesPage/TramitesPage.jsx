@@ -1,45 +1,17 @@
-import {Container, Row, Col, Button} from "react-bootstrap"
+import {Container, Row} from "react-bootstrap"
 import NavBar from "../../Components/common/NavBar/NavBar"
+import ConjuntoTramites from "../../Components/TramitesPage/ConjuntoTramites"
+import jsonNombres from "../../Components/TramitesPage/jsonNombres"
 import './TramitesPage.css'
 
 const TramitesPage = () => {
-      return (
+
+      return (    
             <Container fluid className="fondo">
                   <Row xs={1} className="text-center">
                         <h3 id="text-tramites">Trámites</h3>
                   </Row>
-                  <Row className="text-center mt-5">
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                  </Row>
-                  <Row className="text-center mt-4">
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                  </Row>
-                  <Row className="text-center mt-4">
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                  </Row>
-                  <Row className="text-center mt-4">
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                        <Col xs={6}>
-                              <Button variant="dark" size="lg">Tramite</Button>
-                        </Col>
-                  </Row>
+                  <ConjuntoTramites tramites={jsonNombres}/>
                   <NavBar/>
             </Container>
       )
